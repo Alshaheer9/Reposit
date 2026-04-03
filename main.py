@@ -4,13 +4,7 @@ from telethon.tl.types import PeerChannel, PeerChat, PeerUser
 import asyncio
 
 # تعريف بيانات الاعتماد
-accounts = [
-    {'api_id': '28124630', 'api_hash': 'c24ba1b7a9cf482dec618ea7fe77ea32', 'phone_number': '+967733230076'},
-    {'api_id': '26062367', 'api_hash': '43617226271e2df9a92f36b74d8769a1', 'phone_number': '+967774391494'},
-    {'api_id': '22416938', 'api_hash': 'ba64c6cd8384a198a61df4b05713c297', 'phone_number': '+967770312744'},
-    {'api_id': '20446329', 'api_hash': '7c151b125b2a34febd6116ef40381b4c', 'phone_number': '+967776155452'},
-    {'api_id': '25035277', 'api_hash': '37b8dc4c609f7ce8fb5ed4a583e87af2', 'phone_number': '+967781336037'},
-]
+
 
 clients = []
 
